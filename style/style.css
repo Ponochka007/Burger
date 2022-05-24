@@ -127,8 +127,48 @@ h1 span {
 }
 .footer {
     background: #1E2F40;
+    color: white;
+    padding-top: 117px;
+    padding-bottom: 106px;
 }
 .logo  {
     width: 63px;
     height: 56px;
+}
+.item h2    {
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.item ul,
+.tel ul    {
+    list-style: none;
+}
+.item a    {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-weight: 400;
+}
+.item li    {
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+.item span  {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.tel ul {
+    font-weight: 800;
+    font-size: 20px;
+    color: #FBB731;
+}
+.tel li {
+    margin-bottom: 6px;
 }
